@@ -20,7 +20,7 @@ export const ProfessionalExperience = ({onFormSubmitExperience}) => {
             <div >
                 <form className='mt-2 p-2' onSubmit={dataFormExperience}>
                     <div className="mb-3">
-                        <label className="form-label" ><strong>Nombre institucion</strong></label>
+                        <label className="form-label" ><strong>Nombre de la institución</strong></label>
                         <input
                             type="name"
                             className="form-control"
@@ -31,7 +31,7 @@ export const ProfessionalExperience = ({onFormSubmitExperience}) => {
                             />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label"><strong>Titulo Obtenido</strong></label>
+                        <label className="form-label"><strong>Título Obtenido</strong></label>
                         <input
                             type="name"
                             className="form-control"

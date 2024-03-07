@@ -42,11 +42,11 @@ export const ExperienceWork = ({onFormSubmitWork}) => {
                         />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label"><strong>Resposabilidades</strong></label>
+                        <label className="form-label"><strong>Responsabilidades</strong></label>
                         <input
                             type="text"
                             className="form-control"
-                            placeholder='resposabilidades'
+                            placeholder='Responsabilidades'
                             name='responsibilities'
                             value={responsibilities}
                             onChange={onInputChange}

@@ -69,7 +69,7 @@ export const CvApp = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col p-5" >
                     <div className="card border-secondary">
                         <div className='card p-3'>
                             <h1 className='text-center'>Curriculum Vitae</h1>
@@ -77,15 +77,15 @@ export const CvApp = () => {
                                 <h4>INFORMACION PERSONAL</h4>
                                 <label className="form-label"> Nombre: <strong>{data.nombre}</strong></label>
                                 <label className="form-label ">Correo electrónico: <strong>{data.correo}</strong> </label>
-                                <label className="form-label">Telefono: <strong>{data.telefono}</strong> </label>
+                                <label className="form-label">Teléfono: <strong>{data.telefono}</strong> </label>
                                 <hr />
                                 <h4>EXPERIENCIA PROFESIONAL</h4>
                                 <label className="form-label"> Nombre institución: <strong>{dataExperience.institution}</strong></label>
-                                <label className="form-label ">Título  Obtenido: <strong>{dataExperience.qualification}</strong> </label>
-                                <label className="form-label">Fecha de Estudio: <strong>{dataExperience.year}</strong> </label>
+                                <label className="form-label ">Título obtenido: <strong>{dataExperience.qualification}</strong> </label>
+                                <label className="form-label">Fecha de estudio: <strong>{dataExperience.year}</strong> </label>
                                 <hr />
                                 <h4>EXPERIENCIA LABORAL</h4>
-                                <label className="form-label"> Nombre Empresa: <strong>{dataWork.company}</strong></label>
+                                <label className="form-label"> Nombre de la empresa: <strong>{dataWork.company}</strong></label>
                                 <label className="form-label ">Título  del puesto de trabajo: <strong>{dataWork.position}</strong> </label>
                                 <label className="form-label">Responsabilidad: <strong>{dataWork.responsibilities}</strong> </label>
                             </div>

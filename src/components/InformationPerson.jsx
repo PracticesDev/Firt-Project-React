@@ -33,24 +33,24 @@ export const InformationPerson = ({onFormSubmit}) => {
                             />
                         </div>
                         <div className="mb-3">
-                            <label className="form-label"><strong>Correo Electronico</strong></label>
+                            <label className="form-label"><strong>Correo Electrónico</strong></label>
                             <input
                                 type="email"
                                 name='correo'
                                 value={correo}
                                 className="form-control"
-                                placeholder='Correo electronico'
+                                placeholder='Correo electrónico'
                                 onChange={onInputChange}
                             />
                         </div>
                         <div className="mb-3">
-                            <label className="form-label"><strong>Numero Telefonico</strong></label>
+                            <label className="form-label"><strong>Numero Telefónico</strong></label>
                             <input
                                 type="number"
                                 name='telefono'
                                 value={telefono}
                                 className="form-control"
-                                laceholder='Numero telefonico'
+                                laceholder='Numero telefónico'
                                 onChange={onInputChange}
                             />
                         </div>
